@@ -1,148 +1,236 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-        <!-- Google fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    
-        <!-- Font Awesome -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-        <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    
-        <!-- Minha CSS -->
-         <link rel="stylesheet" href="../css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+  <!-- Minha CSS -->
+  <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-danger">
-        <div class="container-fluid">
-            <img src="../images/Empório nova lisboa.png" alt="Nova Lisboa" width="110" height="104">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <i class="fa-solid fa-align-right text-light"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page" href="../index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="./Frutas.html">Frutas</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link text-light" href="./verduras.html">Verduras</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link text-light" href="./legumes.html">Legumes</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link text-light" href="./assados.html">Assados</a>
-                      </li>
-                </ul>
-                <ul class="navbar-nav me-4 mb-2 mb-lg-0">
-                    <li class="nav-item">
-                      <a class="nav-link text-light" style="font-size: 1.3rem;" href="./login.html"><i class="fa-solid fa-user mx-2" style="font-size: 1.3rem;"></i>Login</a>
-                    </li>
-                  </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- fim navbar -->
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-danger">
+    <div class="container-fluid">
+      <img src="../images/Empório nova lisboa.png" alt="Nova Lisboa" width="110" height="104">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-align-right text-light"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="./Frutas.html">Frutas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="./verduras.html">Verduras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="./legumes.html">Legumes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="./assados.html">Assados</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav me-4 mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-light" style="font-size: 1.3rem;" href="./login.html"><i
+                class="fa-solid fa-user mx-2" style="font-size: 1.3rem;"></i>Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- fim navbar -->
 
-    <section class="">
-        <!-- Jumbotron -->
-        <div class="px-4 py-5 px-md-5 text-center text-lg-start" style="background-color: hsl(0, 0%, 100%)">
-          <div class="container">
-            <div class="row gx-lg-5 align-items-center">
-              <div class="col-lg-6">
-                <h1 class="mt-5 display-3 fw-bold ls-tight">
-                  Faça seu
-                  <span class="text-danger">cadastro</span>
-                </h1>
-                <h1 class="mb-5 mb-lg-0 display-3 fw-bold ls-tight">
-                  E fique por dentro das <br />
-                  <span class="text-danger">ofertas.</span>
-                </h1>
-              </div>
-      
-              <div class="col-lg-6 mb-5 mb-lg-0">
-                <div class="card">
-                  <div class="card-body py-5 px-md-5">
-                    <form id="cadastro">
-                      <!-- 2 column grid layout with text inputs for the first and last names -->
-                      <div class="row">
-                        <div class="col-md-6">
-                          <label for="first_name" class="form-label">Nome</label>
-                          <input type="text" class="form-control" id="first_name">
-                        </div>
-                        <div class="col-md-6">
-                          <label for="last_name" class="form-label">Sobrenome</label>
-                          <input type="text" class="form-control" id="last_name">
-                        </div>
-                        <div class="col-md-10">
-                          <label for="address" class="form-label">Endereço</label>
-                          <input type="text" class="form-control" id="address">
-                        </div>
-                        <div class="col-md-2">
-                          <label for="number" class="form-label">Nº</label>
-                          <input type="text" class="form-control" id="number">
-                        </div>
-                        <div class="col-md-12">
-                          <label for="tel" class="form-label">Telefone</label>
-                          <input type="text" placeholder="(xx) 91234-5678" class="form-control" id="fone">
-                        </div>
-                      </div>
-      
-                      <!-- Email input -->
-                      <div data-mdb-input-init class="form-outline mb-4">
-                        <label for="email" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="email" placeholder="example@email.com" onBlur="validarEmail(this)">
-                      </div>
-    
-                      <div class="mb-3">
-                        <label for="password" class="form-label">Senha</label>
-                        <div class="input-group">
-                          <input type="password" class="form-control" id="newPassword" name="newPassword" placeholder="Digite uma senha"  maxlength="16" onblur="checkMinCaracteres(this)">
-                          <span class="input-group-text"><i class="far fa-eye-slash" id="verNovaSenha"></i></span>
-                        </div>
-                      </div>
-                      <div class="mb-3">
-                        <label for="confirmPassword" class="form-label">Confirme sua senha</label>
-                          <div class="input-group">
-                            <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" placeholder="Confirmar Senha" maxlength="16" onblur="checkMinCaracteres(this)">
-                            <span class="input-group-text"><i class="far fa-eye-slash" id="verConfirmarNovaSenha"></i></span>
-                          </div>
-                      </div>
-      
-                      <!-- Checkbox -->
-                      <div class="form-check d-flex justify-content-center mb-4">
-                        <input id="checkbox-style" class="form-check-input me-2 custom-control-input" type="checkbox" value="" id="form2Example33" checked />
-                        <label class="form-check-label" for="form2Example33">
-                          Quero receber notificações sobre promoções e novidades
-                        </label>
-                      </div>
-      
-                      <!-- Submit button -->
-                      <button type="button" class="btn btn-danger btn-block mb-4 d-flex mx-auto" onclick="validateRegistration()">
-                        Registrar
-                      </button>
-                    </form>
+  <section class="">
+    <!-- Jumbotron -->
+    <div class="px-4 py-5 px-md-5 text-center text-lg-start" style="background-color: hsl(0, 0%, 100%)">
+      <div class="container">
+        <div class="row gx-lg-5 align-items-center">
+          <div class="col-lg-6">
+            <h1 class="mt-5 display-3 fw-bold ls-tight">
+              Faça seu
+              <span class="text-danger">cadastro</span>
+            </h1>
+            <h1 class="mb-5 mb-lg-0 display-3 fw-bold ls-tight">
+              E fique por dentro das <br />
+              <span class="text-danger">ofertas.</span>
+            </h1>
+          </div>
+
+          <div class="col-lg-6 mb-5 mb-lg-0">
+            <div class="card">
+              <div class="card-body py-5 px-md-5">
+                <form id="cadastro">
+                  <!-- 2 column grid layout with text inputs for the first and last names -->
+                  <div class="row">
+                    <div class="col-md-6">
+                      <label for="first_name" class="form-label">Nome</label>
+                      <input type="text" class="form-control" id="first_name">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="last_name" class="form-label">Sobrenome</label>
+                      <input type="text" class="form-control" id="last_name">
+                    </div>
+                    <div class="col-md-10">
+                      <label for="address" class="form-label">Endereço</label>
+                      <input type="text" class="form-control" id="address">
+                    </div>
+                    <div class="col-md-2">
+                      <label for="number" class="form-label">Nº</label>
+                      <input type="text" class="form-control" id="number">
+                    </div>
+                    <div class="col-md-12">
+                      <label for="tel" class="form-label">Telefone</label>
+                      <input type="text" placeholder="(xx) 91234-5678" class="form-control" id="fone">
+                    </div>
                   </div>
-                </div>
+
+                  <!-- Email input -->
+                  <div data-mdb-input-init class="form-outline mb-4">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="example@email.com"
+                      onBlur="validarEmail(this)">
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="password" class="form-label">Senha</label>
+                    <div class="input-group">
+                      <input type="password" class="form-control" id="newPassword" name="newPassword"
+                        placeholder="Digite uma senha" maxlength="16" onblur="checkMinCaracteres(this)">
+                      <span class="input-group-text"><i class="far fa-eye-slash" id="verNovaSenha"></i></span>
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="confirmPassword" class="form-label">Confirme sua senha</label>
+                    <div class="input-group">
+                      <input type="password" class="form-control" id="confirmPassword" name="confirmPassword"
+                        placeholder="Confirmar Senha" maxlength="16" onblur="checkMinCaracteres(this)">
+                      <span class="input-group-text"><i class="far fa-eye-slash" id="verConfirmarNovaSenha"></i></span>
+                    </div>
+                  </div>
+
+                  <!-- Checkbox -->
+                  <div class="form-check d-flex justify-content-center mb-4">
+                    <input id="checkbox-style" class="form-check-input me-2 custom-control-input" type="checkbox"
+                      value="" id="form2Example33" checked />
+                    <label class="form-check-label" for="form2Example33">
+                      Quero receber notificações sobre promoções e novidades
+                    </label>
+                  </div>
+
+                  <!-- Submit button -->
+                  <button type="button" class="btn btn-danger btn-block mb-4 d-flex mx-auto"
+                    onclick="validateRegistration()">
+                    Registrar
+                  </button>
+                </form>
               </div>
             </div>
           </div>
         </div>
-        <!-- Jumbotron -->
-      </section>
+      </div>
+    </div>
+    <!-- Jumbotron -->
+  </section>
+  <!-- -------------------- contato ----------------------->
+  <section class="container-fluid bg-danger mt-5 text-light" id="contato">
+    <div class="container py-5">
+      <h4 class="my-title text-center">Contato</h4>
+      <h3 class="text-center my-title mb-4">Veja como você pode falar conosco</h3>
+      <div class="row mt-5">
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-lg-6 my-4 text-center">
+              <p>
+                <i class="fa-solid fa-location-dot icon-contato"></i>
+              </p>
+              <h3>Endereço</h3>
+              <p>
+                R. Padre Antônio D'Ângelo, 22 <br>
+                São Paulo - SP
+              </p>
+            </div>
+            <div class="col-lg-6 my-4 text-center">
+              <p>
+                <i class="fa-solid fa-phone icon-contato"></i>
+              </p>
+              <h3>Telefone</h3>
+              <p>(11) 96791-7450</p>
+            </div>
+            <div class="col-lg-12 my-4 text-center">
+              <p>
+                <i class="fa-solid fa-clock icon-contato"></i>
+              </p>
+              <h3>Atendimento</h3>
+              <p>
+                Segunda - Sexta: 08h00 - 18h30 <br>
+                Sábados: 08h00 - 16h00 <br>
+                Domingo: 08h00 - 13h00 <br>
+              </p>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <form action="">
+            <div class="row text-start">
+              <div class="col-lg-6 my-3">
+                <label for="nome" class="form-label">Seu nome</label>
+                <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+              </div>
+
+              <div class="col-lg-6 my-3">
+                <label for="email" class="form-label">Seu email</label>
+                <input type="email" class="form-control" id="email" placeholder="nome@email.com">
+              </div>
+
+              <div class="col-lg-6 my-2">
+                <label for="fone" class="form-label">Seu Telefone</label>
+                <input type="tel" class="form-control" id="fone" placeholder="(xx) 91234-5678">
+              </div>
+
+              <div class="col-lg-6 my-2">
+                <label for="mensagem" class="form-label">Assunto</label>
+                <input type="text" class="form-control" id="mensagem" placeholder="Assunto">
+              </div>
+
+              <div class="col-lg-12 my-2">
+                <label for="nome" class="form-label">Mensagem</label>
+                <textarea name="mensagem" id="mensagemm" placeholder="Sua mensagem" class="form-control"></textarea>
+              </div>
+
+              <div class="col-lg-12 my-2 d-flex justify-content-end">
+                <button type="submit" class="btn btn-light">Enviar mensagem</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- -------------------- fim contato ----------------------->
 
 
 
@@ -152,8 +240,12 @@
 
 
 
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js"
+    integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
