@@ -1,6 +1,6 @@
 let user = document.querySelector('#email');
 let senha = document.querySelector('#password');
-const btnLogin = document.getElementById('login')
+const btnLogin = document.getElementById('login');
 
 btnLogin.addEventListener('click', () => {
     if((user.value) == 0 || (senha.value) == 0) {
