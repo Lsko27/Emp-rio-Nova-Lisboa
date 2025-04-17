@@ -4,7 +4,9 @@ let end = document.querySelector('#address');
 let num = document.querySelector('#number');
 let tel = document.querySelector('#fone');
 let email = document.querySelector('#email');
-let senha = document.querySelector('#password');   
+let senha = document.querySelector('#password');  
+
+let icon = document.querySelector('#loginIcon');
 
 
 let confirmaSenha = document.querySelector('#confirmPassword');   
@@ -36,5 +38,5 @@ btnCadastro.addEventListener('click', () => {
         }, 2000); 
     }
 });
+    
 
-console.log(tel.value.length);
