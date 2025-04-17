@@ -12,4 +12,7 @@ btnLogin.addEventListener('click', () => {
     } else {
         alert('LOGIN EFETUADO COM SUCESSO!');
     }
+    setTimeout(function() {
+        window.location.href = '../index.html'
+    }, 2000); 
 });

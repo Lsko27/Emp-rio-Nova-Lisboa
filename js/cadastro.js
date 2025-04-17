@@ -32,6 +32,9 @@ btnCadastro.addEventListener('click', () => {
         alert(`CADASTRO EFETUADO COM SUCESSO!
         Seja Bem-Vindo, ${nome.value} ${sobrenome.value}.`)
     }
-})
+    setTimeout(function() {
+        window.location.href = '../index.html'
+    }, 2000); 
+});
 
 console.log(tel.value.length);
