@@ -1,0 +1,10 @@
+* {
+    font-family: "Lato", sans-serif;
+}
+
+.icon-social,
+.icon-contato {
+    font-size: 2rem;
+    color: var(--bg-blue-1);
+    transition: .5s;
+}
