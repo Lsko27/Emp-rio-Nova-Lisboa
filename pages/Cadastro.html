@@ -52,12 +52,6 @@
             <a class="nav-link text-light" href="./assados.html">Assados</a>
           </li>
         </ul>
-        <ul class="navbar-nav me-4 mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link text-light" style="font-size: 1.3rem;" href="./login.html"><i
-                class="fa-solid fa-user mx-2" style="font-size: 1.3rem;"></i>Login</a>
-          </li>
-        </ul>
       </div>
     </div>
   </nav>
@@ -110,15 +104,14 @@
                   <!-- Email input -->
                   <div data-mdb-input-init class="form-outline mb-4">
                     <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="example@email.com"
-                      onBlur="validarEmail(this)">
+                    <input type="email" class="form-control" id="email" placeholder="example@email.com">
                   </div>
 
                   <div class="mb-3">
                     <label for="password" class="form-label">Senha</label>
                     <div class="input-group">
-                      <input type="password" class="form-control" id="newPassword" name="newPassword"
-                        placeholder="Digite uma senha" maxlength="16" onblur="checkMinCaracteres(this)">
+                      <input type="password" class="form-control" id="password" name="password"
+                        placeholder="Digite uma senha" maxlength="16">
                       <span class="input-group-text"><i class="far fa-eye-slash" id="verNovaSenha"></i></span>
                     </div>
                   </div>
@@ -126,7 +119,7 @@
                     <label for="confirmPassword" class="form-label">Confirme sua senha</label>
                     <div class="input-group">
                       <input type="password" class="form-control" id="confirmPassword" name="confirmPassword"
-                        placeholder="Confirmar Senha" maxlength="16" onblur="checkMinCaracteres(this)">
+                        placeholder="Confirmar Senha" maxlength="16">
                       <span class="input-group-text"><i class="far fa-eye-slash" id="verConfirmarNovaSenha"></i></span>
                     </div>
                   </div>
@@ -141,8 +134,7 @@
                   </div>
 
                   <!-- Submit button -->
-                  <button type="button" class="btn btn-danger btn-block mb-4 d-flex mx-auto"
-                    onclick="validateRegistration()">
+                  <button type="button" id="cadastrar" class="btn btn-danger btn-block mb-4 d-flex mx-auto">
                     Registrar
                   </button>
                 </form>
@@ -198,17 +190,17 @@
             <div class="row text-start">
               <div class="col-lg-6 my-3">
                 <label for="nome" class="form-label">Seu nome</label>
-                <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+                <input type="text" class="form-control" id="nome-footer" placeholder="Seu nome">
               </div>
 
               <div class="col-lg-6 my-3">
                 <label for="email" class="form-label">Seu email</label>
-                <input type="email" class="form-control" id="email" placeholder="nome@email.com">
+                <input type="email" class="form-control" id="email-footer" placeholder="nome@email.com">
               </div>
 
               <div class="col-lg-6 my-2">
                 <label for="fone" class="form-label">Seu Telefone</label>
-                <input type="tel" class="form-control" id="fone" placeholder="(xx) 91234-5678">
+                <input type="tel" class="form-control" id="footerFone" placeholder="(xx) 91234-5678">
               </div>
 
               <div class="col-lg-6 my-2">
@@ -232,15 +224,8 @@
   </section>
   <!-- -------------------- fim contato ----------------------->
 
-
-
-
-
-
-
-
   <script src="../js/cadastro.js"></script>
-  
+
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
     crossorigin="anonymous"></script>
