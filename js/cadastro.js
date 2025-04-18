@@ -1,5 +1,6 @@
 let nome = document.querySelector('#first_name');
 let sobrenome = document.querySelector('#last_name');
+let username = document.querySelector('#username');
 let end = document.querySelector('#address');
 let num = document.querySelector('#number');
 let tel = document.querySelector('#fone');
@@ -20,6 +21,8 @@ btnCadastro.addEventListener('click', () => {
         alert('[ERRO] Sobrenome Inválido!');
     } else if (end.value == '' || num.value == ''){
         alert('[ERRO] Endereço Inválido!');
+    } else if (username.value == ''){
+        alert('[ERRO] Username Inválido!');
     } else if (tel.value == '' || tel.value.length < 11) {
         alert('[ERRO] Telefone Inválido!')
     } else if (!(email.value).includes('@', '.com')){
@@ -31,8 +34,7 @@ btnCadastro.addEventListener('click', () => {
     } else if (senha.value !== confirmaSenha.value) {
         alert('[ERRO] As senhas não coincidem!')
     } else {
-        alert(`CADASTRO EFETUADO COM SUCESSO!
-        Seja Bem-Vindo, ${nome.value} ${sobrenome.value}.`)
+        alert(`CADASTRO EFETUADO COM SUCESSO!\n Seja Bem-Vindo, ${username.value}.`)
         setTimeout(function() {
             window.location.href = '../index.html'
         }, 2000); 
