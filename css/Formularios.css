@@ -1,0 +1,29 @@
+h3 {
+    margin-left: 10rem;
+    font-size: 4rem;
+    color: #007724;
+}
+body {
+    background-color:#e6e6e6;
+}
+#formtot {
+    background-color: #fffafa;
+}
+#txtLinguiça {
+    margin-top: 8rem;
+}
+#txtBatata {
+    margin-top: 8rem;
+}
+.form-select {
+    background: transparent;
+}
+#btn {
+    font-size: 1rem;
+    background: #dc3545;
+    padding: 1rem;
+    transition: .5s;  
+}
+#btn:hover {
+    transform: scale(1.5);
+}
