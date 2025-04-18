@@ -31,6 +31,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
           // Redireciona para a página inicial após o logout
           window.location.href = '../index.html';  // Ou para a página de login
+          setTimeout(function () {
+            window.location.href = '../index.html';
+        }, 2000);
       });
   }
 });
