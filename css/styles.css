@@ -8,3 +8,10 @@
     color: var(--bg-blue-1);
     transition: .5s;
 }
+#btn {
+    font-size: 1.5rem;
+    background-color:#dc3545;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
