@@ -1,18 +1,19 @@
-h3 {
-    margin-left: 10rem;
-    font-size: 4rem;
-    color: #007724;
-}
 body {
     background-color:#e6e6e6;
+}
+h3 {
+    margin-left: 10rem;
+    font-size: 3.5rem;
+    color: #007724;
+}
+p {
+    margin-left: 10rem;  
+    font-size: 1.3rem;  
 }
 #formtot {
     background-color: #fffafa;
 }
-#txtLinguiça {
-    margin-top: 8rem;
-}
-#txtBatata {
+#txtLinguiça, #txtBatata {
     margin-top: 8rem;
 }
 .form-select {
@@ -26,4 +27,15 @@ body {
 }
 #btn:hover {
     transform: scale(1.5);
+}
+
+@media (max-width: 767px) {
+    h3 {
+        margin-left: 3rem;
+        font-size: 2.3rem;
+    }
+    p {
+        margin-left: 3rem ;
+        font-size: 1rem;
+    }
 }
