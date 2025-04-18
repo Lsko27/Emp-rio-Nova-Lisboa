@@ -13,8 +13,8 @@ btnLogin.addEventListener('click', () => {
         alert(`LOGIN EFETUADO COM SUCESSO!\n Seja Bem-vindo de volta, ${user.value}`);
 
         // Salva o estado de login e o nome do usuário
-        sessionStorage.setItem('isLogged', 'true');
-        sessionStorage.setItem('nomeUsuario', user.value); // <-- CORRIGIDO
+        localStorage.setItem('isLogged', 'true');
+        localStorage.setItem('nomeUsuario', user.value); // <-- CORRIGIDO
 
         // Troca ícone de login para ícone de usuário (caso esteja na mesma página)
         const loginIcon = document.getElementById('loginIcon');

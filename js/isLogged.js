@@ -5,7 +5,7 @@ window.addEventListener("DOMContentLoaded", () => {
     const nomeSpan = document.getElementById('nomeUsuario');
 
     if (estouLogado === "true") {
-              // Troca ícone
+      // Troca ícone
       loginIcon.classList.remove('fa-right-to-bracket');
       loginIcon.classList.add('fa-user');
 
