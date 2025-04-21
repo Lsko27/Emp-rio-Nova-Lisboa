@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto</title>
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900; 100..900&display=swap"
+  rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css">
+
+  <!-- Sweet alert -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.1/dist/sweetalert2.min.css">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+  <!-- Minha CSS -->
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/Formularios.css">
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-danger">
+    <div class="container-fluid">
+      <img src="/images/Empório nova lisboa.png" alt="Nova Lisboa" width="110" height="104">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-align-right text-light"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="../Frutas.html">Frutas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="../verduras.html">Verduras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="../legumes.html">Legumes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="../assados.html">Assados</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+  <!-- fim navbar -->
+
+  <!-- FORMULÁRIO -->
+  <main class="my-5">
+    <section id="formtot" class="container my-5 border border-danger">
+      <div class="container ">
+        <div class="row">
+            <h1 class="my-5 text-center">Cada bandeja - R$ 3,99 <br> 10 bandejas - R$ 36,00</h1>
+          <h2 class="mt-5 mb-3">Batatas</h2>
+          <div class="col-md-6 my-3">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+            <label class="form-check-label" for="inlineCheckbox1"><strong>Batata</strong></label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected disabled>Quantidade</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select>
+          </div>
+          <div class="col-md-6 my-3">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+            <label class="form-check-label" for="inlineCheckbox2"><strong>Batata Doce</strong></label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected disabled>Quantidade</option>
+              <option value="5">1</option>
+              <option value="6">2</option>
+              <option value="7">3</option>
+              <option value="8">4</option>
+            </select>
+          </div>
+
+          <h2 class="mt-5 mb-3">Cebola</h2>
+          <div class="col my-3">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+            <label class="form-check-label" for="inlineCheckbox3">cebolas</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected disabled>Quantidade</option>
+              <option value="9">1</option>
+              <option value="10">2</option>
+              <option value="11">3</option>
+              <option value="12">4</option>
+            </select>
+          </div>
+
+          <h2 class="mt-5 mb-3">Cenoura</h2>
+          <div class="col my-3">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+            <label class="form-check-label" for="inlineCheckbox4">cenouras</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected disabled>Quantidade</option>
+              <option value="13">1</option>
+              <option value="14">2</option>
+              <option value="15">3</option>
+              <option value="16">4</option>
+            </select>
+          </div>
+
+          <h2 class="mt-5 mb-3">Chuchu</h2>
+          <div class="col my-3">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
+            <label class="form-check-label" for="inlineCheckbox5">chuchus</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected disabled>Quantidade</option>
+              <option value="17">1</option>
+              <option value="18">2</option>
+              <option value="19">3</option>
+              <option value="20">4</option>
+            </select>
+          </div>
+
+          <h2 class="mt-5 mb-3">Abobrinha</h2>
+          <div class="col my-3">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox6" value="option6">
+            <label class="form-check-label" for="inlineCheckbox6">abobrinhas</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected disabled>Quantidade</option>
+              <option value="21">1</option>
+              <option value="22">2</option>
+              <option value="23">3</option>
+              <option value="24">4</option>
+            </select>
+          </div>
+
+          <h2 class="mt-5 mb-3">Beterraba</h2>
+          <div class="col my-3">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox7" value="option7">
+            <label class="form-check-label" for="inlineCheckbox7">beterrabas</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected disabled>Quantidade</option>
+              <option value="25">1</option>
+              <option value="26">2</option>
+              <option value="27">3</option>
+              <option value="28">4</option>
+            </select>
+          </div>
+
+          <h2 class="mt-5 mb-3">Tomate</h2>
+          <div class="col-md-6 my-3">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox7" value="option7">
+            <label class="form-check-label" for="inlineCheckbox7"> <strong>Tomate</strong></label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected disabled>Quantidade</option>
+              <option value="29">1</option>
+              <option value="30">2</option>
+              <option value="31">3</option>
+              <option value="32">4</option>
+            </select>
+          </div>
+          <div class="col-md-6 my-3">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox8" value="option8">
+            <label class="form-check-label" for="inlineCheckbox8"><strong>Tomate cereja</strong></label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected disabled>Quantidade</option>
+              <option value="33">1</option>
+              <option value="34">2</option>
+              <option value="35">3</option>
+              <option value="36">4</option>
+            </select>
+          </div>
+
+          <h2 class="mt-5 mb-3">Pepino Japonês</h2>
+          <div class="col my-3">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox9" value="option9">
+            <label class="form-check-label" for="inlineCheckbox9">pepinos japoneses</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected disabled>Quantidade</option>
+              <option value="37">1</option>
+              <option value="38">2</option>
+              <option value="39">3</option>
+              <option value="40">4</option>
+            </select>
+          </div>
+
+          <h2 class="mt-5 mb-3">Vagem</h2>
+          <div class="col my-3">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox10" value="option10">
+            <label class="form-check-label" for="inlineCheckbox10">vagens</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected disabled>Quantidade</option>
+              <option value="41">1</option>
+              <option value="42">2</option>
+              <option value="43">3</option>
+              <option value="44">4</option>
+            </select>
+          </div>
+
+          <h2 class="mt-5 mb-3">Quiabo</h2>
+          <div class="col my-3">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox11" value="option11">
+            <label class="form-check-label" for="inlineCheckbox11">quiabos</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected disabled>Quantidade</option>
+              <option value="45">1</option>
+              <option value="46">2</option>
+              <option value="47">3</option>
+              <option value="48">4</option>
+            </select>
+          </div>
+
+          <h2 class="mt-5 mb-3">Jiló</h2>
+          <div class="col my-3">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox12" value="option12">
+            <label class="form-check-label" for="inlineCheckbox12">jilós</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected disabled>Quantidade</option>
+              <option value="49">1</option>
+              <option value="50">2</option>
+              <option value="51">3</option>
+              <option value="52">4</option>
+            </select>
+          </div>
+
+          <h2 class="mt-5 mb-3">Berinjela</h2>
+          <div class="col my-3">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox13" value="option13">
+            <label class="form-check-label" for="inlineCheckbox13">berinjelas</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected disabled>Quantidade</option>
+              <option value="53">1</option>
+              <option value="54">2</option>
+              <option value="55">3</option>
+              <option value="56">4</option>
+            </select>
+          </div>
+
+          <h2 class="mt-5 mb-3">Pimentão</h2>
+          <div class="col my-3">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox14" value="option14">
+            <label class="form-check-label" for="inlineCheckbox14">pimentões</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected disabled>Quantidade</option>
+              <option value="57">1</option>
+              <option value="58">2</option>
+              <option value="59">3</option>
+              <option value="60">4</option>
+            </select>
+          </div>
+
+          <h2 class="mt-5 mb-3">Pimenta Cambuci</h2>
+          <div class="col my-3">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox15" value="option15">
+            <label class="form-check-label" for="inlineCheckbox15">pimentas</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected disabled>Quantidade</option>
+              <option value="61">1</option>
+              <option value="62">2</option>
+              <option value="63">3</option>
+              <option value="64">4</option>
+            </select>
+          </div>
+
+          <h2 class="mt-5 mb-3">Ervilha Torta</h2>
+          <div class="col my-3">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox16" value="option16">
+            <label class="form-check-label" for="inlineCheckbox16">ervilhas</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected disabled>Quantidade</option>
+              <option value="65">1</option>
+              <option value="66">2</option>
+              <option value="67">3</option>
+              <option value="68">4</option>
+            </select>
+          </div>
+
+          <h2 class="mt-5 mb-3">Maxixe</h2>
+          <div class="col my-3">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox17" value="option17">
+            <label class="form-check-label" for="inlineCheckbox17">maxixes</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected disabled>Quantidade</option>
+              <option value="69">1</option>
+              <option value="70">2</option>
+              <option value="71">3</option>
+              <option value="72">4</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <button id="btn" type="submit" class="btn my-4 text-center align-items-center justify-content-center">
+          Fechar pedido
+        </button>
+      </div>
+      </form>
+    </section>
+    <!-- FIM FORMULÁRIO -->
+  </main>
+
+       <!-- -------------------- contato ----------------------->
+       <section class="container-fluid bg-danger mt-5 text-light" id="contato">
+        <div class="container py-5">
+          <h4 class="my-title text-center">Contato</h4>
+          <h3 class="text-center my-title mb-4">Veja como você pode falar conosco</h3>
+          <div class="row mt-5">
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-lg-6 my-4 text-center">
+                  <p>
+                    <i class="fa-solid fa-location-dot icon-contato"></i>
+                  </p>
+                  <h3>Endereço</h3>
+                  <p>
+                    R. Padre Antônio D'Ângelo, 22 <br>
+                    São Paulo - SP
+                  </p>
+                </div>
+                <div class="col-lg-6 my-4 text-center">
+                  <p>
+                    <i class="fa-solid fa-phone icon-contato"></i>
+                  </p>
+                  <h3>Telefone</h3>
+                  <p>(11) 96791-7450</p>
+                </div>
+                <div class="col-lg-12 my-4 text-center">
+                  <p>
+                    <i class="fa-solid fa-clock icon-contato"></i>
+                  </p>
+                  <h3>Atendimento</h3>
+                  <p>
+                    Segunda - Sexta: 08h00 - 18h30 <br>
+                    Sábados: 08h00 - 16h00 <br>
+                    Domingo: 08h00 - 13h00 <br>
+                  </p>
+                </div>
+    
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <form action="">
+                <div class="row text-start">
+                  <div class="col-lg-6 my-3">
+                    <label for="nome" class="form-label">Seu nome</label>
+                    <input type="text" class="form-control" id="nome-footer" placeholder="Seu nome">
+                  </div>
+    
+                  <div class="col-lg-6 my-3">
+                    <label for="email" class="form-label">Seu email</label>
+                    <input type="email" class="form-control" id="email-footer" placeholder="nome@email.com">
+                  </div>
+    
+                  <div class="col-lg-6 my-2">
+                    <label for="fone" class="form-label">Seu Telefone</label>
+                    <input type="tel" class="form-control" id="footerFone" placeholder="(xx) 91234-5678">
+                  </div>
+    
+                  <div class="col-lg-6 my-2">
+                    <label for="mensagem" class="form-label">Assunto</label>
+                    <input type="text" class="form-control" id="mensagem" placeholder="Assunto">
+                  </div>
+    
+                  <div class="col-lg-12 my-2">
+                    <label for="nome" class="form-label">Mensagem</label>
+                    <textarea name="mensagem" id="mensagemm" placeholder="Sua mensagem" class="form-control"></textarea>
+                  </div>
+    
+                  <div class="col-lg-12 my-2 d-flex justify-content-end">
+                    <button type="submit" class="btn btn-light">Enviar mensagem</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- -------------------- fim contato ----------------------->
+  <script src="../js/formulario.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js"
+    integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

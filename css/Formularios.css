@@ -1,12 +1,16 @@
 body {
     background-color:#e6e6e6;
 }
-h3 {
+h1 {
+    font-size: 4rem;
+    color: #dc3545;
+}
+h2 {
     margin-left: 10rem;
     font-size: 3.5rem;
     color: #007724;
 }
-p {
+h6 {
     margin-left: 10rem;  
     font-size: 1.3rem;  
 }
