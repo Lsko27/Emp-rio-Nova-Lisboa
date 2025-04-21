@@ -1,6 +1,6 @@
 window.addEventListener("DOMContentLoaded", () => {
-    const estouLogado = sessionStorage.getItem("isLogged");
-    const nome = sessionStorage.getItem('nomeUsuario');
+    const estouLogado = localStorage.getItem("isLogged");
+    const nome = localStorage.getItem('nomeUsuario');
     const icone = document.getElementById("loginIcon");
     const nomeSpan = document.getElementById('nomeUsuario');
 
